@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: pizza Press Fill;
+}
+
+.top-navi .blueHead{
+    text-align: center;
+}
+
+.blueHead{
+    background: #00658f;
+}
+
+.blueHead img{
+    align-items: center;
+    justify-content: space-between;
+    padding: .3em 3.4em;
+    position: relative;
+}
+
+.blueHead p{
+    position: relative;
+    color: white;
+    right: 4em;
+    font-size: .7rem;
+    margin-top: 1.6em;
+    align-items: center;
+}
+
+.whiteHead {
+    border-bottom: 1px solid rgb(212, 212, 212);
+    text-align: center;
+    display: flex;
+}
+
+.whiteHead p{
+   flex: 1;
+   margin: 0;
+  
+    padding: .4em 4em;
+    font-size: 1.1rem; 
+    font-weight: 300;
+}
+
+.whiteHead a{
+    text-decoration: none;
+    color: #00658f;
+}
+
+.whiteHead a:hover{
+    color: rgba(44, 44, 44, 0.836);
+}
+
+main .form-content h1{
+    
+    text-align: center;
+    color:#00658f;
+    font-weight: 100;
+}
+
+.btn-container{
+   margin: .7em;
+   text-align: center;
+    box-shadow: 5px 6px 11px 1px #777;
+    background: #ff002b;
+    color:white;
+}
+
+.btn-container h2{
+    font-weight: 100;
+    font-size: 1.8em;
+}
+
+.btn-container:hover{
+    background-color: rgba(46, 46, 46, 0.404);
+    box-shadow: 0 0 0 0;
+}
+
+.main-container img{
+    width: 100%;
+    height: auto;
+    padding: .5em;
+
+}
+
+@media screen and (max-width: 500px){
+    .main-container{
+       padding: 0 1em;
+    }
+}
+
+
