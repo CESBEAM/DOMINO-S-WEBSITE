@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: pizza Press Fill;
+   
 }
 
 .top-navi .blueHead{
@@ -72,21 +73,110 @@ main .form-content h1{
 }
 
 .btn-container:hover{
-    background-color: rgba(46, 46, 46, 0.404);
+    background-color: rgb(216, 126, 1);
     box-shadow: 0 0 0 0;
+}
+
+.main-container{
+   
+    padding: 1em;
 }
 
 .main-container img{
     width: 100%;
-    height: auto;
-    padding: .5em;
-
+    height: fit-content;
 }
 
-@media screen and (max-width: 500px){
+.btn-menu{
+    display: flex;
+}
+
+input[type="button"] {
+    flex: 1;
+    margin: .1em;
+    height: fit-content;
+    font-size: 2em;
+    width: 100%;
+    background: #ff002b;
+    font-family: pizza Press Fill;
+    color: white;
+    box-shadow: 5px 6px 11px 1px #777;
+}
+
+input[type="button"]:hover{
+    background-color: rgb(216, 126, 1);
+    box-shadow: 0 0 0 0;
+}
+
+.your-order{
+    background: #0090ce;
+    border-radius: 12px;
+    margin-top: 1em;
+    padding: 0 4em;
+}
+
+.your-order h1{
+    margin-top: 0;
+    flex: 1;
+    color: white;
+    text-align: center;
+}
+
+.order-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.order-section .btn-del >button{
+    flex: 1;
+    text-align: center;
+    background: #ff002b;
+    border: none;
+    padding: .4em 1em;
+    color: white;
+    font-size: 1.2rem;
+    font-family: pizza Press Fill;
+    margin-bottom: 1em;
+  
+}
+
+.order-section label{
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    color: white;
+    padding: 0 1em;
+    margin-bottom: 1.2em;
+}
+
+.order-section .btn-take >button{
+    flex: 1;
+    text-align: center;
+    background: #ff002b;
+    border: none;
+    padding: .4em 1em;
+    color: white;
+    font-size: 1.2rem;
+    font-family: pizza Press Fill;
+    margin-bottom: 1em;
+}
+
+.btn-del button:hover{
+    background-color: rgb(216, 126, 1);
+    box-shadow: 0 0 0 0;
+}
+
+.btn-take button:hover{
+    background-color: rgb(216, 126, 1);
+    box-shadow: 0 0 0 0;
+}
+/* @media screen and (max-width: 500px){
     .main-container{
        padding: 0 1em;
     }
 }
 
-
+ */
