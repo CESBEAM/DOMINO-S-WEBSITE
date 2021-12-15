@@ -173,6 +173,47 @@ input[type="button"]:hover{
     background-color: rgb(216, 126, 1);
     box-shadow: 0 0 0 0;
 }
+
+.bottom-content{
+    background: #DBDBDB;
+    padding: 1em;
+    
+}
+
+
+
+.about ul li{
+    display: flex;
+    flex: 1;
+    list-style: none;
+    color: #333333;
+
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.social-icons img{
+    
+    padding: 1em 1em;
+    
+}
+
+.app-store{
+    justify-content: center;
+    padding: 5em ;
+}
+
+.text-bottom p{
+    font-size: .9rem;
+    color: #333333;
+    text-align: justify;
+    padding: 0 3em;
+}
+
 /* @media screen and (max-width: 500px){
     .main-container{
        padding: 0 1em;
